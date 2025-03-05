@@ -141,38 +141,11 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "restaurant system",
+    name: "Restaurant System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to order food, reserve tabale and view order state , providing a convenient and efficient solution for restaurant  management needs.",
     tags: [
       {
         name: "react",
@@ -193,7 +166,7 @@ const projects = [
   {
     name: "Service Site",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for infomation,  use print serivce, and fill any online form for easy service",
     tags: [
       {
         name: "react",
@@ -204,7 +177,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "multer",
         color: "pink-text-gradient",
       },
     ],
@@ -214,7 +187,7 @@ const projects = [
   {
     name: "School Management",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive Management System that allow Admin, teacher and student to experience best and easy way of management of the Education.",
     tags: [
       {
         name: "nextjs",
@@ -225,7 +198,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
@@ -234,4 +207,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
